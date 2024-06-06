@@ -3,3 +3,11 @@
     margin: 0px;
 
 }
+:root{/*seletor raiz para variáveis*/
+    --cor-de-fundo:#cc00ff;
+    --cor-de-letra:rgb(0, 255, 255);
+    }
+
+    body {/*seletor body*/
+        background-color: deeppink;
+    }
