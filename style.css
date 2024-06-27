@@ -1,13 +1,39 @@
-*{ /*Seletor universal para ressetar a bordas da página*/
-    padding: 0px;
-    margin: 0px;
-
+*{ /*Seletor universal para resetar as bordas da páginas*/
+    padding:0px;
+    margin:0px;
 }
-:root{/*seletor raiz para variáveis*/
-    --cor-de-fundo:#cc00ff;
-    --cor-de-letra:rgb(0, 255, 255);
-    }
 
-    body {/*seletor body*/
-        background-color: #a123f5;
-    }
+
+:root{/*seletor raiz para variáveis*/
+    --cor-de-fundo:#56d085;
+    --cor-da-letra:#ffd000;
+    --cor-branco:white;
+}
+body{/*seletor body*/
+    background-color:var(--cor-de-fundo)
+}
+
+header.css.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho{
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
